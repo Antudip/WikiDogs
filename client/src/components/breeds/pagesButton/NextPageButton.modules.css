@@ -1,0 +1,25 @@
+
+
+
+.nextPageButton{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 700px ;
+    top:auto;
+    cursor: pointer;
+    font-weight: 500;
+    color:#777;
+    border: 3px solid #777;
+    border-radius:7px;
+    background-color: #111;
+    font-size: 35px;
+    transition: .3s;
+}
+.nextPageButton:hover{
+    background-color: #222;
+    color:#393;
+}
+.nextPageButton:active{
+    background-color: #444;
+}

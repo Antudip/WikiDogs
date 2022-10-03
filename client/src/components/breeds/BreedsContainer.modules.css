@@ -1,0 +1,54 @@
+
+.home{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 75%;
+}
+
+.BreedsContainer{
+    
+    display:flex;
+    width: 100%;
+    position: relative;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start;
+    top: 5%;
+    
+    height: 75%;
+}
+.detail{
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    position:absolute;
+    z-index: 1;
+}
+
+.detailsBackground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.nextAndPreButtons{
+    position: absolute;
+}
+.noMatch{
+    color:#777;
+}
+.loading{
+    color: #777;
+}
+.contadorDePaginas{
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    font-size: 30px;
+    color:#777;
+}
+

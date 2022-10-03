@@ -1,0 +1,110 @@
+.lista {
+    position: absolute;
+    display: flex;
+    overflow: unset;
+    top:100px;
+    right: 100px;
+    width: 200px;
+    background-color: #777;
+    border-radius: 5px;
+    animation: filtersShowUp .2s;
+}
+
+
+
+.listaHiding{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    top:100px;
+    right: 100px;
+    height: 0;
+    background-color: #777;
+    border-radius: 5px;
+    animation: filtersHide .2s;
+}
+
+.filters {
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.tempers {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x:hidden ;
+    position: absolute;
+    right: -50%;
+    top: 500px;
+    width: 300px;
+    height: 300px;
+    background-color: #777e;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.showFilterTempers{
+    display: flex;
+    font-display: inline;
+    background-color: #333;
+    align-items: center;
+    margin-right: 10px;
+    height: 30px;
+    padding:0 10px 0 10px;
+    border-radius: 15px;
+    color:white;
+    cursor: default;
+    border: none;
+}
+
+.hiddeButton{
+
+    align-self: flex-end;
+    right: 0px;
+    top: 0px;
+
+}
+
+@keyframes filtersShowUp {
+
+    0%{
+        top: 100px;;
+        height: 0;
+        overflow: hidden;
+    }
+  
+    99%{
+        top:100px;
+        height: 332px;
+        
+    }
+    100%{
+        top:100px;
+        height: 332px;
+        overflow: hidden;
+    
+    }
+   
+}
+@keyframes filtersHide {
+    0%{
+        top:100px;
+        height: 300px;
+        overflow: hidden;
+    }
+    100%{
+        top:100px;
+        height: 0;
+        overflow: hidden;
+
+    }
+  
+    
+}

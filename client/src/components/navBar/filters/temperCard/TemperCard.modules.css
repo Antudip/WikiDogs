@@ -1,0 +1,22 @@
+.temperCard{
+    margin:2px 5px;
+    cursor: pointer;
+    background-color: #333;
+    border-radius: 7px;
+    border: none;
+    height: 20px;
+    color:#ddd;
+    width: max-content;
+    order: 3;
+
+}
+
+.temperCard:hover{
+    background-color: #888;
+    color: aliceblue;
+}
+
+.activeCard{
+    background-color: black;
+    color:white;
+}

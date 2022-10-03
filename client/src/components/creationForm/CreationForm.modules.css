@@ -1,0 +1,165 @@
+.formContainer{
+    display: flex;
+    
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.form{
+    position: relative;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333;
+    height: 100%;
+    width: 50%;
+    border:3px solid #aaa;
+}
+.principalInputs{
+    width: 60%;
+}
+.normalInput{
+    height: 35px;
+    background-color: #333;
+    font-size: 25px;
+    width: 65%;
+    border: none;
+    border-bottom: 3px solid #777;
+    border-radius: 3px;
+    color:#ddd;
+    transition: .3s;
+   
+}
+.normalInput::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+.normalInput::placeholder{
+    color:#888;
+   
+}
+.normalInput:focus{
+    outline: none;
+    background-color: #222;
+
+}
+
+.heightInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+
+}
+
+.button{
+    text-align: center;
+    
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #333;
+    color: #777;
+    border:3px solid #777 ;
+    border-radius: 3px;
+    transition: .3s;
+    order:30;
+    margin:0 10px 0 5px;
+    font-size: 30px;
+}
+#backButton{
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #333;
+    color: #777;
+    border:3px solid #777 ;
+    border-radius: 3px;
+    transition: .3s;
+    order:5000;
+    margin:0 10px 0 5px;
+}
+#backButton:hover{
+    color: #882222;
+    background-color: #222;
+}
+.button:hover{
+    background-color: #222;
+    color: #29662c;
+}
+.weightInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+
+}
+.heightAndWeight{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+
+}
+.heightAndWeight div div {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-around;
+}
+.heightAndWeight span {
+    color:#999; 
+}
+.error{
+    color: #882222;
+    font-weight: 500;
+    font-size: 30px;
+}
+.temperCardContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 7px;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 80%;
+    overflow-x: scroll;
+    order: 20;
+    background-color: #222;
+}
+.formContainer img{
+    position: absolute;
+    border-radius: 100%;
+    /* outline: 3px solid #aaa; */
+    /* outline: */
+    border:5px solid #333; ;
+    width: 300px;
+    height: 300px;
+    top:-80px;
+    left:-150px;
+    border-radius: 100%;
+    
+}
+.imgCont{
+    display: flex;
+    
+}
+.imageOutline{
+    position: absolute;
+    border-radius: 100%;
+    outline: 3px solid #aaa;
+    z-index: -1000;
+    width: 310px;
+    height: 310px;
+    top:-80px;
+    left:-150px;
+    border-radius: 100%;
+}

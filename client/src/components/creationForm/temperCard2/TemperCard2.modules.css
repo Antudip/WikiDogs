@@ -1,0 +1,20 @@
+.card{
+    height: 20px;
+    cursor: pointer;
+    color: #aaa;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    transition: .1s;
+
+}
+
+.card:hover{
+    background-color: #2c8aae;
+    color:beige;
+}
+.activeTemper{
+    background-color: #df9e17;
+    color:white;
+}

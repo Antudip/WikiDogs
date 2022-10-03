@@ -1,0 +1,26 @@
+
+
+.prePageButton{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -800px;
+    top:50%;
+    cursor: pointer;
+    font-weight: 500;
+    color:#777;
+    border: 3px solid #777;
+    border-radius:5px ;
+    background-color: #111;
+    font-size: 35px;
+    transition: .3s;
+
+}
+.prePageButton:hover{
+    background-color: #222;
+    color:#393;
+}
+.prePageButton:active{
+    background-color: #444;
+
+}

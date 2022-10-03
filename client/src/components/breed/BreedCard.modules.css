@@ -1,0 +1,65 @@
+.BreedCard{
+    position: relative;
+    color:#aaa;
+    opacity: .9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    width:360px;
+    min-width: 100px;
+    height:215px;
+    margin:5px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+    font-size: 17px;
+    line-height: 2;
+    
+}
+.imageContainer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top:5px;
+}
+.image{
+    width: 100%;
+}
+.BreedCard:hover{
+    margin-top: -.1px;
+    margin-left: -.1px;
+    background-color: rgba(90, 89, 89, 0.693);
+}
+.deleteButton{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: #999;
+    transition: .3s;
+}
+.deleteButton:hover{
+    color: #d33;
+}
+.deleteButton{
+    margin-top: -6px;
+    margin-left: -6px;
+    z-index: 100;
+}
+.cardContainer{
+    position: relative;
+}
+.handlerClicker{
+    height: 100%;
+    width:100%;
+    position: absolute;
+}

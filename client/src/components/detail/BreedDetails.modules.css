@@ -1,0 +1,72 @@
+
+
+
+.compeleteCard{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    border-radius: 7px;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    top:175px;
+    position: absolute;
+    margin: auto;
+    align-self: center;
+    overflow: hidden;
+  
+}
+.imageBox{
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    top:5px;
+    left: 10px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.hiddeDetailButton{
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+    position: absolute;
+    bottom: 30px;
+    right: 3%;
+    background: transparent;
+    font-size: 60px;
+    text-align: center;
+    border: none;
+    color: #888;
+    transition: .2s;
+    
+}
+.hiddeDetailButton:hover{
+    color: #d33;
+}
+.background{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #2229;
+    backdrop-filter:blur(20px);
+}
+.data{
+    color:#aaa;
+    z-index:1;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: flex-end;
+    width: 46%;
+    right: 0;
+}
+.description{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
