@@ -37,25 +37,25 @@ export default function LandingPage() {
 
     return <div className="landingPage">
 
-        {breeds.length && !isLoading ? <div ref={referencia} className="randomDogsContainer">
+            {/* {breeds.length && !isLoading ? <div ref={referencia} className="randomDogsContainer">
 
-            <div className="anotherContainer">
-                <div className="images">
-                    {randomDogs.map(e => {
-                        return <div className="dog" key={e}><img src={e} alt=""></img></div>
-                    })}
-                </div>
-                <div className="randomDogsBackground"></div>
-
-                <Link to='/home'>
-                    <div className="botoncitoContainer">
-                        <button id="botoncito"><div>LOG IN</div></button>
-
+                <div className="anotherContainer">
+                    <div className="images">
+                        {randomDogs.map(e => {
+                            return <div className="dog" key={e}><img src={e} alt=""></img></div>
+                        })}
                     </div>
-                </Link>
+                    <div className="randomDogsBackground"></div> */}
 
-            </div>
+                    <div className="botoncitoContainer">
+                        <Link to='/home'>
+                            <button id="botoncito"><div>LOG IN</div></button>
 
-        </div> : <div className="loadingIcon"><img src="https://media3.giphy.com/media/xNj5Tx8kMHQdZFzrPp/giphy.gif?cid=ecf05e47wjwe7py8nplxh6n153ntmf9wk5yx71dgi260b6vr&rid=giphy.gif&ct=s" alt='hola'></img></div>}
+                        </Link>
+                    </div>
+
+                {/* </div>
+
+        </div> : <div className="loadingIcon"><img src="https://media3.giphy.com/media/xNj5Tx8kMHQdZFzrPp/giphy.gif?cid=ecf05e47wjwe7py8nplxh6n153ntmf9wk5yx71dgi260b6vr&rid=giphy.gif&ct=s" alt='hola'></img></div>} */}
     </div>
 }

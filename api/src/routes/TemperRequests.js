@@ -20,7 +20,7 @@ axios.get('https://api.thedogapi.com/v1/breeds')
         allTempers.forEach(async element => {
             if (element !== '') {
                 const el = await Temper.findOrCreate({ where: { name: element } });
-                console.log(el);
+          
             }
         });
     })
